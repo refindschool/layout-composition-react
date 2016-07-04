@@ -1,5 +1,22 @@
+body {
+color: black;
+line-height: 1.6em;
+}
+
+a {
+    color: dodgerblue;
+    text-decoration: none;
+}
 ul {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+.header {
+   background-color: lavenderblush; 
+}
+/*layout containers*/
+.container {
+    width: 70%;
+    margin: 0 auto;
 }

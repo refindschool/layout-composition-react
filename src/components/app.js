@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class App extends Component {
   render() {
     return (<div>
-      <div className="footer-header">
+      <div className="header">
         <h2 className="logo"><a href="">Refind_Shcool</a></h2>
         <ul className="nav">
           <li className="navlink"> <a href="">Home</a></li>
@@ -11,6 +11,7 @@ export default class App extends Component {
           <li className="navlink"><a href="">Contact</a></li>
         </ul>
       </div>
+      <div className="container">
       <div className="sidebar-sidebar">
         <h4>Pitch Infrastructure</h4>
         <p>Creative innovator learning curve</p>
@@ -28,6 +29,8 @@ export default class App extends Component {
           <p>Metrics funding venture pivot non-disclosure agreement client long tail niche market pitch agile development freemium.Mass market incubator user experience iPad scrum project equity burn rate handshake research &amp; development.Gamification infrastructure
             business-to-business.IPhone branding responsive web design business model canvas buzz founders infrastructure creative stock accelerator funding.</p>
         </div>
+      
+      </div>
       </div>
     </div>);
   }
