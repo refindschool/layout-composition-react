@@ -1,5 +1,5 @@
 {
-  "name": "redux-simple-starter",
+  "name": "react-simple-starter",
   "version": "1.0.0",
   "description": "Simple starter package for React With Webpack and Babel support",
   "main": "index.js",
