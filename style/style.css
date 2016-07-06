@@ -13,7 +13,11 @@ ul {
     list-style: none;
 }
 .header {
-   background-color: lavenderblush; 
+   background-color: lavenderblush;
+   padding: 1em 0;
+}
+.logo {
+    margin-top: 0;
 }
 /*layout containers*/
 .container {
