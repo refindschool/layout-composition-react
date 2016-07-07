@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
 color: black;
 line-height: 1.6em;
@@ -21,6 +24,15 @@ ul {
 }
 /*layout containers*/
 .container {
-    width: 70%;
-    margin: 0 auto;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+/*media queries*/
+@media (min-width: 769px){
+    .container {
+        width: 70%;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
 }
