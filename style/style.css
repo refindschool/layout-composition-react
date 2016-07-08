@@ -28,6 +28,7 @@ ul {
 .logo a,
 .navlink a {
     padding: 10px 20px;
+    display: block;
 }
 .header {
     background-color: lavenderblush;
@@ -57,7 +58,7 @@ ul {
     }
     .logo, .nav,
     .navlink {
-        display: inline;
+        display: inline-block;
     }
     .logo {
         width: 240px;
