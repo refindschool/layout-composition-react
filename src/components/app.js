@@ -21,7 +21,10 @@ export default class App extends Component {
         <div className="sidebar-content">
           <div>
             <h5>Prototype rockstar</h5>
-            <p>Churn rate non-disclosure agreement buyer focus ecosystem iPad.Release venture crowdsource burn rate facebook paradigm shift supply chain prototype responsive web design partnership deployment.Innovator crowdsource holy grail advisor.Funding influencer
+            
+            <p>
+            <img src="http://lorempixel.com/g/400/200/" alt="" className="rockstar-img"/>
+            Churn rate non-disclosure agreement buyer focus ecosystem iPad.Release venture crowdsource burn rate facebook paradigm shift supply chain prototype responsive web design partnership deployment.Innovator crowdsource holy grail advisor.Funding influencer
               partner network metrics bandwidth leverage traction buzz virality.</p>
             <p>Twitter stock equity vesting period learning curve launch party pitch innovator series A financing churn rate handshake.Venture graphical user interface bandwidth influencer sales technology pitch.Marketing iPad angel investor.Social media accelerator
               seed round conversion traction success pitch advisor.</p>
