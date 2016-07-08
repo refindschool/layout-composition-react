@@ -30,6 +30,7 @@ ul {
     padding: 10px 20px;
     display: block;
 }
+
 .header {
     background-color: lavenderblush;
     padding: 1em 0;
@@ -37,9 +38,19 @@ ul {
 
 .logo {
     margin-top: 0;
+    float: left;
+}
+.nav {
+    float: right;
 }
 
+.navlink {
+    float: left;
+}
 
+.sidebar-sidebar {
+    clear: both;
+}
 /*layout containers*/
 
 .container {
