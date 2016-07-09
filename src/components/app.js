@@ -4,7 +4,7 @@ export default class App extends Component {
   render() {
     return (<div>
       <div className="header">
-        <div className="container">
+        <div className="container cf">
         <h2 className="logo"><a href="">Refind_Shcool</a></h2>
         <ul className="nav">
           <li className="navlink"> <a href="">Home</a></li>

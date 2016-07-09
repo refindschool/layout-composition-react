@@ -48,9 +48,7 @@ ul {
     float: left;
 }
 
-.sidebar-sidebar {
-    clear: both;
-}
+
 /*layout containers*/
 
 .container {
@@ -86,4 +84,25 @@ ul {
         padding: 10px;
         border: solid 1px blanchedalmond;
     }
+}
+
+/**
+ * clearfix hack
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
 }
