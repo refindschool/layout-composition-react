@@ -1,125 +1,45 @@
-* {
-    box-sizing: border-box;
+
+/* Some CSS Setup */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
-    color: black;
-    line-height: 1.6em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color:#3d464d;
+  margin: 0;
+  height: 100vh;
+  background-image: linear-gradient(260deg, white  0%, #FFFFFF 50%);
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding:20px;
+}
+
+img {
+  max-width:100%;
 }
 
 a {
-    color: whitesmoke;
+    text-decoration: none;  
+    color: palevioletred;    
+}
+
+.navLink {
+    color: #F5F5F5;
     text-decoration: none;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.logo,
-.navlink {
+    font-size: 15px;
     text-align: center;
-    margin-top: 6px;
-    margin-bottom: 6px;
-    background-color: black;
+    padding: 1em;
+    margin-left: .5em;
+    background-color: #3d464d;
 }
-
-.logo a,
-.navlink a {
-    padding: 10px 20px;
-    display: block;
-}
-
-.header {
-    background-color: lavenderblush;
-    padding: 1em 0;
-}
-
-.logo {
-    margin-top: 0;
-    float: left;
-}
-
-.nav {
-    float: right;
-}
-
-.navlink {
-    float: left;
-}
-
-
-/*layout containers*/
-
-.container {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-}
-
-
-/*media queries*/
-
-@media (min-width: 769px) {
-    .container {
-        width: 70%;
-        max-width: 1024px;
-        margin: 0 auto;
-    }
-    .sidebar-sidebar {
-        float: left;
-        width: 20%;
-    }
-    .sidebar-content * {
-        float: right;
-        width: 70%;
-    }
-    .logo,
-    .nav,
-    .navlink {
-        display: inline-block;
-    }
-    .logo {
-        width: 240px;
-        margin-right: 50px;
-    }
-    .navlink {
-        padding: 0px 5px;
-        margin-right: 5px;
-    }
-    .rockstar-img {
-        float: left;
-        margin-right: 15px;
-        margin-bottom: 15px;
-        padding: 10px;
-        border: solid 1px blanchedalmond;
-    }
-}
-
-
-/**
- * clearfix hack
- */
-
-.cf:before,
-.cf:after {
-    content: " ";
-    /* 1 */
-    display: table;
-    /* 2 */
-}
-
-.cf:after {
-    clear: both;
-}
-
-
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-
-.cf {
-    *zoom: 1;
+.navLink:hover {
+  background: #7b8994;
 }
