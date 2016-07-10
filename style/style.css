@@ -25,6 +25,7 @@ ul {
     margin-bottom: 6px;
     background-color: black;
 }
+
 .logo a,
 .navlink a {
     padding: 10px 20px;
@@ -40,6 +41,7 @@ ul {
     margin-top: 0;
     float: left;
 }
+
 .nav {
     float: right;
 }
@@ -65,7 +67,16 @@ ul {
         max-width: 1024px;
         margin: 0 auto;
     }
-    .logo, .nav,
+    .sidebar-sidebar {
+        float: left;
+        width: 20%;
+    }
+    .sidebar-content * {
+        float: right;
+        width: 70%;
+    }
+    .logo,
+    .nav,
     .navlink {
         display: inline-block;
     }
@@ -86,23 +97,29 @@ ul {
     }
 }
 
+
 /**
  * clearfix hack
  */
+
 .cf:before,
 .cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
 }
 
 .cf:after {
     clear: both;
 }
 
+
 /**
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
+
 .cf {
     *zoom: 1;
 }

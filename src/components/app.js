@@ -13,13 +13,12 @@ export default class App extends Component {
         </ul>
         </div>
       </div>
-      <div className="container">
+      <div className="container cf">
         <div className="sidebar-sidebar">
           <h4>Pitch Infrastructure</h4>
           <p>Creative innovator learning curve</p>
         </div>
         <div className="sidebar-content">
-          <div>
             <h5>Prototype rockstar</h5>
             
             <p>
@@ -33,8 +32,6 @@ export default class App extends Component {
               A financing partner network direct mailing rockstar seed money market gamification launch party product management virality.Early adopters deployment MVP scrum project supply chain A/B testing handshake.</p>
             <p>Metrics funding venture pivot non-disclosure agreement client long tail niche market pitch agile development freemium.Mass market incubator user experience iPad scrum project equity burn rate handshake research &amp; development.Gamification infrastructure
               business-to-business.IPhone branding responsive web design business model canvas buzz founders infrastructure creative stock accelerator funding.</p>
-          </div>
-
         </div>
       </div>
     </div>);
